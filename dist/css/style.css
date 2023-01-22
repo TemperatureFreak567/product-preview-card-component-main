@@ -1,0 +1,128 @@
+.card {
+  width: 70vw;
+  margin: 5rem auto;
+  text-align: left;
+  background-color: var(--White);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card #img-div {
+  overflow: hidden;
+}
+.card #img-div #product-img {
+  max-inline-size: 100%;
+  block-size: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card #product-description {
+  padding: 20px;
+}
+.card #price {
+  display: inline-flex;
+  width: 70%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card #cart {
+  display: inline-flex;
+  justify-content: space-evenly;
+  background-color: var(--Dark-cyan);
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+}
+.card #cart svg {
+  align-self: center;
+}
+.card #cart:hover {
+  background-color: var(--Very-dark-blue);
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .card {
+    display: flex;
+    width: 500px;
+  }
+  .card #img-div {
+    overflow: hidden;
+  }
+  .card #img-div #product-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+#product-name {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+#product-type {
+  text-transform: uppercase;
+  letter-spacing: 0.35ch;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.gray {
+  color: var(--Dark-grayish-blue);
+}
+
+#inspiration p {
+  line-height: 1.5;
+}
+
+#old {
+  text-decoration: line-through;
+}
+
+#discounted {
+  color: var(--Dark-cyan);
+  font-family: "Fraunces", sans-serif;
+  font-size: 30px;
+}
+
+#cart p {
+  color: var(--White);
+}
+
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--Cream);
+  color: var(--Very-dark-blue);
+  font-family: "Montserrat", "Fraunces", sans-serif;
+  font-size: 1.4rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */

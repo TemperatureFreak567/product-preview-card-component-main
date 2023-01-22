@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--Cream);
+  color: var(--Very-dark-blue);
+  font-family:'Montserrat', 'Fraunces', sans-serif;
+  font-size: 1.4rem;
+}
+ .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }

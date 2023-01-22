@@ -1,0 +1,30 @@
+#product-name {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 0;
+}
+#product-type {
+  text-transform: uppercase;
+  letter-spacing: 0.35ch;
+  font-weight: 500;
+  margin-top: 0;
+}
+.gray {
+  color: var(--Dark-grayish-blue);
+}
+#inspiration p {
+  line-height: 1.5;
+}
+#old {
+  text-decoration: line-through;
+}
+#discounted {
+  color: var(--Dark-cyan);
+  font-family: "Fraunces", sans-serif;
+  font-size: 30px;
+}
+
+#cart p {
+  color: var(--White);
+}
