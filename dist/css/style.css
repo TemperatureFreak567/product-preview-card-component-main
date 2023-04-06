@@ -1,5 +1,5 @@
 .card {
-  width: 80vw;
+  width: min(375px, 65vw);
   margin: 5rem auto;
   text-align: left;
   background-color: var(--White);
@@ -43,7 +43,7 @@
 @media (min-width: 600px) {
   .card {
     display: flex;
-    width: 60vw;
+    width: min(500px, 60vw);
   }
   .card #img-div {
     overflow: hidden;
@@ -59,7 +59,7 @@
 #product-name {
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 2em;
   margin-top: 0;
 }
 
@@ -102,7 +102,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 *, *::before, *::after {
@@ -119,10 +119,10 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1em;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */

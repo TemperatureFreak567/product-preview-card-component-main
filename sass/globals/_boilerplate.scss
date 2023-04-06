@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 62.5%;
 }
 *, *::before, *::after {
   box-sizing: inherit;
@@ -14,10 +14,11 @@ body {
   font-size: 1.4rem;
 }
  .attribution {
-      font-size: 11px;
+      font-size: 1em;
       text-align: center;
     }
 
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
+    
