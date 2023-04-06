@@ -1,6 +1,5 @@
 .card {
   width: min(375px, 65vw);
-  margin: 5rem auto;
   text-align: left;
   background-color: var(--White);
   border-radius: 15px;
@@ -116,6 +115,11 @@ body {
   color: var(--Very-dark-blue);
   font-family: "Montserrat", "Fraunces", sans-serif;
   font-size: 1.4rem;
+  min-height: 100hv;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column; 
 }
 
 .attribution {
